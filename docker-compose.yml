@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  boinc:
+    container_name: boinc
+    restart: always
+    volumes:
+      - boinc:/var/lib/boinc
+    image: ichikawayukko/boinc
+
+volumes:
+  boinc:
