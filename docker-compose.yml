@@ -7,6 +7,7 @@ services:
     volumes:
       - boinc:/var/lib/boinc
     image: ichikawayukko/boinc
+    hostname: YOUR-HOSTNAME_HERE   # This will be registered for identify each boinc host
 
 volumes:
   boinc:
