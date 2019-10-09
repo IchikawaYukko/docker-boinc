@@ -1,4 +1,4 @@
-FROM	centos:latest
+FROM	centos:7.6.1810
 RUN	yum install -y epel-release && \
 	yum install -y boinc-client && \
 	echo '#!/bin/sh' > /usr/local/bin/entrypoint.sh && \
