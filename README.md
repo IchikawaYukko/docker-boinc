@@ -2,7 +2,7 @@
 CentOS based BOINC container image.
 
 # Usage
-Download docker-compose.yml from this repository. then...
+Download docker-compose.yml from [this repository](https://raw.githubusercontent.com/IchikawaYukko/docker-boinc/master/docker-compose.yml). And modify hostname section in that file (The host name will be registered on project you will attach and may be seen on project's device manager. So it is important).
 
 ## Start container
 `docker-compose up -d`
