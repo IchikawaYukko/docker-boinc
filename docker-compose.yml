@@ -5,7 +5,7 @@ services:
     container_name: boinc
     restart: always
     volumes:
-      - boinc:/var/lib/boinc
+      - boinc:/var/lib/boinc:z
     image: ichikawayukko/boinc
     hostname: YOUR-HOSTNAME_HERE   # This will be registered for identify each boinc host
 
